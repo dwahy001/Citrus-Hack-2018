@@ -11,25 +11,25 @@
 
 		<div class="head2" style="background-color: #F0C88C">
 			<img class="frontpic" src="test.png" alt="" float="center">
-			<form action="action_page.php" width="100px" height= "200px" style="border:2px solid #000000">
+			<form action="action_page.php">
 	  			<div class="container">
 	    			<h1 align=center>Sign In</h1>
 	    			<hr>
 
-	   				 <label for="email"><b>Email</b></label>
-					    <input type="text" placeholder="Enter Email" name="email" required>
+	   				 <label class="signin1" for="email" align="center"><b><center>Email</center></b></label>
+					    <input class="signinbox" type="text" placeholder="Enter Email" name="email" required>
 
-					    <label for="psw"><b>Password</b></label>
-					    <input type="password" placeholder="Enter Password" name="psw" required>
+					 <label class="signin1" for="psw" align="center"><b><center>Password</center></b></label>
+					    <input class="signinbox" type="password" placeholder="Enter Password" name="psw" required>
 
 	    
 
 	   				 <label>
-	      				<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+	      				<input type="checkbox"  checked="checked" name="remember" style="margin-bottom:15px"> Remember me
 	    			</label>
 
 	    			<div class="clearfix">
-	      				<button class="signin"type="signin" class="signupbtn">Sign In</button>
+	      				<button id="signin" type="signin">Sign In</button>
 	    			</div>
 	  </div>
 		</form>
