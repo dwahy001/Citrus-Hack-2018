@@ -1,1 +1,36 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+.header {
+	height: 10px;
+	width:	100px;
+	border: none;
+	background: none;
+	font-size: 20px;
+	color: black;
+	word-spacing: 30px
+	opacity: 0.5;
+	float: right;
+	
 
+}
+.head1 {
+	padding: 25px 100px;
+}
+.head2 {
+	padding: 300px 100px;
+}
+.head3 {
+	padding: 400px 100px;
+}
+.frontpic {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height:230px;
+	top:-270px;
+	position:relative;
+}
+.container {
+	position: relative;
+	top:-200px;
+}
