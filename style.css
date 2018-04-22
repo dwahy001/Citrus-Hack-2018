@@ -16,21 +16,41 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 	padding: 25px 100px;
 }
 .head2 {
-	padding: 300px 100px;
+	padding: 200px 100px;
 }
 .head3 {
-	padding: 400px 100px;
+	padding: 25px 100px;
 }
 .frontpic {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	height:230px;
-	top:-270px;
+	height:300px;
+	top:-200px;
 	position:relative;
 }
 .container {
 	position: relative;
 	top:-200px;
+}
+.signin1 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    float:center;
+
+}
+.signinbox {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#signin {
+	width:50%
+	background: #000;
 }
